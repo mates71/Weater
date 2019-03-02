@@ -18,16 +18,24 @@ public class WeaterHPage {
 	public WebElement search;
 	
 	
-	@FindBy(xpath = "//div[@class='vk_bk sol-tmp']/span[1]")
+	@FindBy(id = "wob_tm")
 	public WebElement temprature;
+	
+	@FindBy(id = "wob_ttm")
+	public WebElement tempratureC;
 	
 	@FindBy(xpath = "//div[@class='locations-title five-day-page-title']")
 	public WebElement verify_5_days;
 	
 	
+	@FindBy(xpath = "//a[@class='wob_t'][2]")
+	public WebElement C_degree;
 	
 	
 	
+	
+	
+	//div[@class='vk_bk sol-tmp']/span[1]
 	
 
 }

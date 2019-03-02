@@ -36,25 +36,34 @@ public class WeaterStepDefn {
 	public void user_search_weater_in_specific_city() throws Throwable {
 		Thread.sleep(2000);
 		hp.search.sendKeys("weater in Charlotte,NC"+Keys.ENTER);
-		System.out.println("Temprature is in Charlotte TODAY: "+hp.temprature.getText());
+		System.out.println("Temprature is in Charlotte TODAY: "+hp.temprature.getText()+"F");
+		hp.C_degree.click();
+		System.out.println("Temprature is in Charlotte TODAY: "+hp.tempratureC.getText()+"C");
 		hp.search.clear();
 		
 		
 		Thread.sleep(2000);
 		hp.search.sendKeys("weater in Fairfax,VA"+Keys.ENTER);
-		System.out.println("Temprature is in Fairfax TODAY: "+hp.temprature.getText());
+		System.out.println("Temprature is in Fairfax TODAY: "+hp.temprature.getText()+"F");
+		Thread.sleep(2000);
+		hp.C_degree.click();
+		System.out.println("Temprature is in Fairfax TODAY: "+hp.tempratureC.getText()+"C");
 		hp.search.clear();
 		
 		
 		Thread.sleep(2000);
 		hp.search.sendKeys("weater in Brookfield,WI"+Keys.ENTER);
-		System.out.println("Temprature is in Brookfield TODAY: "+hp.temprature.getText());
+		System.out.println("Temprature is in Brookfield TODAY: "+hp.temprature.getText()+"F");
+		hp.C_degree.click();
+		System.out.println("Temprature is in Brookfield TODAY: "+hp.tempratureC.getText()+"C");
 		hp.search.clear();
 		
 
 		Thread.sleep(2000);
 		hp.search.sendKeys("weater in Usak,Turkey"+Keys.ENTER);
-		System.out.println("Temprature is in USAK TODAY: "+hp.temprature.getText());
+		System.out.println("Temprature is in USAK TODAY: "+hp.temprature.getText()+"F");
+		hp.C_degree.click();
+		System.out.println("Temprature is in USAK TODAY: "+hp.tempratureC.getText()+"C");
 		
 	}
 
