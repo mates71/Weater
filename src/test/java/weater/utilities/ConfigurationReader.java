@@ -1,4 +1,4 @@
-package chase.utilities;
+package weater.utilities;
 
 import java.io.FileInputStream;
 import java.util.Properties;

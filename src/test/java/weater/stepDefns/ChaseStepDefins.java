@@ -1,4 +1,4 @@
-package chase.stepDefns;
+package weater.stepDefns;
 
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;

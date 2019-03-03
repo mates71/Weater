@@ -1,4 +1,4 @@
-package chase.runners;
+package weater.runners;
 
 import org.junit.runner.RunWith;
 
