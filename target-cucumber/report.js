@@ -39,21 +39,21 @@ formatter.match({
   "location": "WeaterStepDefn.weater_home_page()"
 });
 formatter.result({
-  "duration": 1881338342,
+  "duration": 1968356611,
   "status": "passed"
 });
 formatter.match({
   "location": "WeaterStepDefn.user_search_weater_in_specific_city()"
 });
 formatter.result({
-  "duration": 20767640958,
+  "duration": 30689874676,
   "status": "passed"
 });
 formatter.match({
   "location": "WeaterStepDefn.user_able_to_get_result()"
 });
 formatter.result({
-  "duration": 1088064,
+  "duration": 1654443,
   "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat weater.stepDefns.WeaterStepDefn.user_able_to_get_result(WeaterStepDefn.java:73)\n\tat ✽.Then user able to get result(weater.feature:7)\n",
   "status": "pending"
 });
