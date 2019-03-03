@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 		
 		features="src/test/resources/feature",
 		
-		glue="chase/stepDefns",
+		glue="weater/stepDefns",
 		
 		tags="@weater",
 		dryRun=false
