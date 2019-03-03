@@ -39,22 +39,22 @@ formatter.match({
   "location": "WeaterStepDefn.weater_home_page()"
 });
 formatter.result({
-  "duration": 1824742183,
+  "duration": 1881338342,
   "status": "passed"
 });
 formatter.match({
   "location": "WeaterStepDefn.user_search_weater_in_specific_city()"
 });
 formatter.result({
-  "duration": 15592184584,
+  "duration": 20767640958,
   "status": "passed"
 });
 formatter.match({
   "location": "WeaterStepDefn.user_able_to_get_result()"
 });
 formatter.result({
-  "duration": 2313428,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat chase.stepDefns.WeaterStepDefn.user_able_to_get_result(WeaterStepDefn.java:73)\n\tat ✽.Then user able to get result(weater.feature:7)\n",
+  "duration": 1088064,
+  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat weater.stepDefns.WeaterStepDefn.user_able_to_get_result(WeaterStepDefn.java:73)\n\tat ✽.Then user able to get result(weater.feature:7)\n",
   "status": "pending"
 });
 });
