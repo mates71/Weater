@@ -34,7 +34,11 @@ public class WeaterStepDefn {
 
 	@When("^user search weater in specific city$")
 	public void user_search_weater_in_specific_city() throws Throwable {
+		hp.googleLuckyBtn.click();
 		Thread.sleep(2000);
+		hp.googleLuckyBtn.click();
+	/*	
+		Thread.sleep(3000);
 		hp.search.sendKeys("weater in Charlotte,NC"+Keys.ENTER);
 		System.out.println("Temprature is in Charlotte TODAY: "+hp.temprature.getText()+"F");
 		hp.C_degree.click();
@@ -64,7 +68,7 @@ public class WeaterStepDefn {
 		System.out.println("Temprature is in USAK TODAY: "+hp.temprature.getText()+"F");
 		hp.C_degree.click();
 		System.out.println("Temprature is in USAK TODAY: "+hp.tempratureC.getText()+"C");
-		
+		*/
 	}
 
 	@Then("^user able to get result$")

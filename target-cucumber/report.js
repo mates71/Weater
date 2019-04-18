@@ -35,16 +35,26 @@ formatter.step({
   "name": "user able to get result",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "WeaterStepDefn.weater_home_page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 1846597339,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "WeaterStepDefn.user_search_weater_in_specific_city()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 2143312665,
+  "status": "passed"
+});
+formatter.match({
+  "location": "WeaterStepDefn.user_able_to_get_result()"
+});
+formatter.result({
+  "duration": 1055678,
+  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat weater.stepDefns.WeaterStepDefn.user_able_to_get_result(WeaterStepDefn.java:77)\n\tat ✽.Then user able to get result(weater.feature:7)\n",
+  "status": "pending"
 });
 });
