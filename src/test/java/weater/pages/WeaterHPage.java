@@ -31,6 +31,9 @@ public class WeaterHPage {
 	@FindBy(xpath = "//a[@class='wob_t'][2]")
 	public WebElement C_degree;
 	
+	@FindBy(id = "gbqfbb")
+	public WebElement googleLuckyBtn;
+	
 	
 	
 	
