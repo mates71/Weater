@@ -1,4 +1,7 @@
 //added this feature to release branch 12-10-2020
+
+// this file need to validate :)
+
 @chase
 Feature: Login page functunalities
 Scenario: COL login flow
